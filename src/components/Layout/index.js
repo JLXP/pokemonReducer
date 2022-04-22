@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
       {errorMessage && (
         <div className='wrapper'>
           <Message
-            onDismiss={handleDismiss}
+            
             content={errorMessage}
             color='red'
           />
